@@ -8,7 +8,7 @@ namespace KathakBookingSystem.Data
     public class ApplicationDbContext : DbContext
     {
         // Write your ApplicationDbContext here...
-public virtual DbSet<Class> Class{get;set;}
-public virtual DbSet<Student> Student{get;set;}
+public  virtual DbSet<Class> Class{get;set;}
+public  virtual DbSet<Student> Student{get;set;}
     }
 }
