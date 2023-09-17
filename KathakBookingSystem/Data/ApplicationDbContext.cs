@@ -7,7 +7,7 @@ namespace KathakBookingSystem.Data
 {
     public class ApplicationDbContext : DbContext
     {
-        public ApplicationDbContextpublic (DbContextOptions options):base(options)
+        public ApplicationDbContext(DbContextOptions options):base(options)
         {           }
 
         // Write your ApplicationDbContext here...
