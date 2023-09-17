@@ -13,6 +13,7 @@ namespace KathakBookingSystem.Controllers
             // Write ClassEnrollmentForm functionality here
             // if students count is greater than Class Capacity Throw a exception "Class is fully booked."
             // if class not found return NotFound() else return View()
+        return View();
         }
 
         [HttpPost]
