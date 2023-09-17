@@ -9,7 +9,7 @@ namespace KathakBookingSystem.Models
         public DateTime StartTime{get;set;}
         public DateTime EndTime{get;set;}
         public int Capacity{get;set;}
-        public ICollection<Student> Student{get; set;} 
+        public virtual ICollection<Student> Student{get; set;} 
 
     }
 }
