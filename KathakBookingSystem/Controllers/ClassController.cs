@@ -10,7 +10,7 @@ namespace KathakBookingSystem.Controllers
     public class ClassController : Controller
     {
         public IActionResult AvailableClasses()
-        {
+        { ViewBag.Name="Sajeed";
             //Write Functionality to display AvailableClasses return view
             return View();
         }
